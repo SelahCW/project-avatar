@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+  }
+  
+  h1 {
+    font-family: Helvetica;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+  }
+
+.elementgrid {
+      display: grid;
+      grid-template-areas:
+            "header header"
+            "fire earth air water"
+            "footer footer";
+      grid-template-columns:1fr, 3fr;
+      gap: 20px;
+ }
+header {
+    grid-area: header;
+}
+fire {
+    grid-area: fire;
+ }
+earth {
+    grid-area: earth;
+ }
+air {
+    grid-area: air;
+  }
+water {
+    grid-area: water;
+  }
+footer {
+    grid-area: footer;
+}
