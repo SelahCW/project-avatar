@@ -1,44 +1,78 @@
-body {
-    background-color: black;
-  }
-  
-  h1 {
-    font-family: Helvetica;
-    font-size: 24px;
-    color: white;
-    text-align: center;
-  }
-  
-  p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    color: white;
-  }
+<style>
+/* styling the navigation bar */
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #3A5C93;
+	text-align: center;
+}
 
-.elementgrid {
-      display: grid;
-      grid-template-areas:
-            "header header"
-            "fire earth air water"
-            "footer footer";
-      grid-template-columns:1fr, 3fr;
-      gap: 20px;
- }
-header {
-    grid-area: header;
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
 }
-fire {
-    grid-area: fire;
- }
-earth {
-    grid-area: earth;
- }
-air {
-    grid-area: air;
-  }
-water {
-    grid-area: water;
-  }
-footer {
-    grid-area: footer;
+
+nav a:link {
+	color: white;
+  text-decoration: none;
 }
+
+nav a.right {
+  float: right;
+}
+
+/* body of the website */
+.content {
+	padding: 10px;
+	padding-bottom: 4rem;    /* Footer height */
+}
+
+/* footer */
+a:link {
+color: #3A5C93;
+  text-decoration: none;
+}
+
+footer > p {
+text-align: center; 
+background-color: #3A5C93;
+//border-radius: 2px; 
+}
+
+
+footer > ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+background-color: transparent;	
+	
+}
+
+footer > ul > li {
+padding: 20px;
+display: inline;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content {
+  padding-bottom: 4rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  height: 4rem;            /* Footer height */
+  color: white;
+margin-top: 100px;
+}
+</style>
