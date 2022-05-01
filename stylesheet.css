@@ -94,33 +94,31 @@ li {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   }
-  .cell {
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-    padding: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .fire {
-    background: #f33f14;
-    border: 10px solid;
-    border-color: goldenrod;
-  }
-  .earth {
-    background: #a8996a;
-    border: 10px solid;
-    border-color: goldenrod;
-  }
-  .air {
-    background: #fafaf7;
-    color: black;
-    border: 10px solid;
-    border-color: goldenrod;
-  }
-  .water {
-    background: #132b69;
-    border: 10px solid;
-    border-color: goldenrod;
-  }
-
-  
+.cell {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fire {
+  background: #f33f14;
+  border: 10px solid;
+  border-color: goldenrod;
+}
+.earth {
+  background: #a8996a;
+  border: 10px solid;
+  border-color: goldenrod;
+}
+.air {
+  background: #fafaf7;
+  color: black;
+  border: 10px solid;
+  border-color: goldenrod;
+}
+.water {
+  background: #132b69;
+  border: 10px solid;
+  border-color: goldenrod;
+}
